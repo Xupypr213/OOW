@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: url("./img/контент4.svg");
+  height: 2140px;
+  background-position: 50%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#magazin-main {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 10vw;
+  padding-top: 6vw;
+  padding-left: 1vw;
+}
+
+#magazin-nav-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  left: 1vw;
+  width: 100%;
+}
+
+#magazin-nav-bar li {
+  display: flex;
+  flex-direction: column;
+  font-size: 6vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 2vw;
+  padding-top: 6vw;
+  padding-left: 6vw;
+  transition: transform 0.5s ease-in-out;
+}
+
+#magazin-nav-bar a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+#magazin-nav-bar a:hover {
+  color: #FFE600;
+}
+
+#magazin-content-main {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: 12vw;
+  margin-top: 5vw;
+}
+
+#magazin-text-main{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-top: 75vw;
+  font-size: 6vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  line-height: 6vw;
+  text-align: center;
+  color: white;
+  transition: transform 0.5s ease-in-out;
+}
+
+#magazin-text-main:hover{
+  transform: translateY(10px);
+}
+
+@keyframes ooow {
+  0% { 
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+
+#magazin-logo {
+  position: absolute;
+  top: 6vw;
+  right: 6vw;
+}
+
+#magazin-logo img {
+  max-width: 100px;
+  height: auto;
+}
